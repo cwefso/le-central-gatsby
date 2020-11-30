@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 // import "./Home.css";
-// import { NavLink } from "react-router-dom";
-
+import Nav from "../components/Nav"
 
 export default function Home() {
   const [special, setSpecial] = useState([])
@@ -14,6 +13,8 @@ export default function Home() {
 	}, [])
 
 	return (
+    <>
+    <Nav />
 		<section className="main">
 			<section className="greeting">
 				Bienvenue
@@ -52,5 +53,6 @@ export default function Home() {
 				</section>
 			</section>
 		</section>
+    </>
 	);
 }
