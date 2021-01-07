@@ -1,6 +1,5 @@
 import React from "react";
-// import "./Card.css";
-// import { NavLink } from "react-router-dom";
+// import "../styles/Card.css"
 
 function Card({ content }) {
 	return <section className="card">{content}</section>;

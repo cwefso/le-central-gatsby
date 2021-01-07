@@ -1,6 +1,5 @@
 import React from "react";
-// // import "./Menu.css";
-// import { NavLink } from "react-router-dom";
+// import "../styles/Menu.css"
 
 function Menu() {
 	return (

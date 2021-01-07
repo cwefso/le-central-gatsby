@@ -1,0 +1,10 @@
+.card {
+  background-color: #fffaef;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px rgb(144, 144, 144);
+  height: 70vh;
+  margin-top: 20vh;
+  opacity: 95%;
+  min-width: 65vw;
+  overflow: hidden;
+}
