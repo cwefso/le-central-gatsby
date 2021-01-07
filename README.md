@@ -1,6 +1,6 @@
 # Le Central French Restaurant
 
-  This application is deployed on heroku: [Le Central Heroku.](https://le-central-restaurant.herokuapp.com/)
+  This application is deployed on heroku: [Le Central Heroku.](https://le-central-gatsby.herokuapp.com/)
 
 GitHub: 
 - Backend [Le-Central-backend] (https://github.com/cwefso/le-central-backend))
