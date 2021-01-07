@@ -15,9 +15,8 @@ This project was bootstrapped with Create React App and uses a Strapi admin pane
 ## Learning Goals
   - Designing an application from scratch.
   - Creating a business site.
-  - Building applications in React.
+  - Building applications using Gatsby.
   - Creating and Admin Panel using Strapi.
-  - Testing React with Jest and React Testing Library.
   - Wireframing and Styling.
 
 ## Project Overview
