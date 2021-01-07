@@ -33,9 +33,7 @@ function Home() {
 			{!special && 
 				<section style={styles.special}>
 								<h2 style={styles.h2}>La Spécialité du Jour</h2>
-								<p style={styles.p}>placeholder</p>
-								<p style={styles.p}>placeholder</p>
-								<p style={styles.p}>placeholder</p>
+								<p style={styles.p}>No Special at This Time</p>
 				</section>
 			}
 			<span style={styles.span}></span>
