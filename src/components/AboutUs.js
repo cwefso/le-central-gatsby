@@ -2,8 +2,8 @@ import React from "react";
 
 function AboutUs() {
 	return (
-		<section className="about-us">
-			<p>
+		<section style={styles.aboutUs}>
+			<p style={styles.p}>
 				Le Central has been giving Denver a sit-down history lesson on the
 				breadth of French cuisine -- from the haute to the basse -- since 1981.
 				Over the years, chefs and cooks from far-flung locales have passed
@@ -16,9 +16,34 @@ function AboutUs() {
 				just $36.
 			</p>
       <br></br>
-      <p className="source">- Westword</p>
+      <p style={styles.source}>- Westword</p>
 		</section>
 	);
 }
 
 export default AboutUs;
+
+const styles = {
+	aboutUs: {
+		color: 'black',
+		display: 'flex',
+		flexDirection: 'column',
+		minHeight: '60vh',
+		justifyContent: 'center',
+		alignItems: 'center',
+		minWidth: '65vw',
+		maxWidth: '65vw',
+		overflow: 'auto',
+	},
+	p: {
+		width: '73%',
+		fontFamily: '"Parisienne", serif',
+		fontSize: '1em',
+		padding: '1px 1px 1px 1px',
+		fontStyle: 'italic',
+	},
+	source: {
+		display: 'flex',
+		justifyContent: 'flex-end'
+	}
+}

@@ -9,13 +9,11 @@ console.log(styles)
 
 export default function AboutPage() {
   return (
-    <Container>
     <div className="App">
       <Nav />
       <header className="App-header">
         <Card content={<AboutUs />} />
       </header>
     </div>
-    </Container>
   )
 }
