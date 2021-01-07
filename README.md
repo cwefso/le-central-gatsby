@@ -4,7 +4,7 @@
 
 GitHub: 
 - Backend [Le-Central-backend] (https://github.com/cwefso/le-central-backend))
-- UI [Le-Central-ui] (https://github.com/cwefso/le-central-demo)
+- UI [Le-Central-ui] (https://github.com/cwefso/le-central-gatsby)
 
 This project was bootstrapped with Create React App and uses a Strapi admin panel.
    
