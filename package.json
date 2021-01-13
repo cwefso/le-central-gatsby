@@ -6,6 +6,9 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
+
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
@@ -19,7 +22,9 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "cypress": "^6.2.1",
+    "prettier": "2.1.2",
+    "start-server-and-test": "^1.11.7"
   },
   "repository": {
     "type": "git",
