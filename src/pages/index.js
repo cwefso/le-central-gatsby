@@ -5,7 +5,7 @@ import Home from "../components/Home"
 
 
 export default function HomePage() {
-  const [special, setSpecial] = useState([])
+  const [special, setSpecial] = useState({})
 
   useEffect(() => {
     fetch("https://le-central-backend.herokuapp.com/specials")
@@ -14,6 +14,7 @@ export default function HomePage() {
       .catch(err => console.log(err.message))
   }, [])
 
+  console.log("special", special )
   return (
     <div className="App">
       <Nav />
